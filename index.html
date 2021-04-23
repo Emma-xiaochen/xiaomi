@@ -7,7 +7,42 @@
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./iconfont/iconfont.css">
     <style>
-        
+        .video-group {
+            height: 285px;
+            list-style: none;
+        }
+
+        .video-group li {
+            width: 295px;
+            height: 280px;
+            float: left;
+            background: #ffffff;
+        }
+
+        .video-group .videoSep {
+            margin-left: 14px;
+        }
+
+        .video-group img {
+            width: 295px;
+            height: 180px;
+        }
+
+        .video-group .videoItem .title {
+            font-size: 14px;
+            color: #333;
+            text-align: center;
+            padding-top: 30px;
+            padding-bottom: 10px;
+        }
+
+        .video-group .videoItem .des {
+            height: 18px;
+            font-size: 12px;
+            color: #b0b0b0;
+            text-align: center;
+            margin: 0 14px;
+        }
     </style>
 </head>
 <body>
@@ -265,81 +300,201 @@
                 </div>
                 <img src="./img/Note9.webp" alt="">
             </div>
-            <div class="otherCart clearf">
+            <div class="otherCart">
                 <div class="header">
-                    <div class="title">手机1</div>
+                    <div class="title">手机</div>
                     <div class="more">查看更多
                         <span class="iconfont icon-youjiantou-tianchong"></span>
                     </div>
                 </div>
-                <div class="mainPush">
-                    <img src="./img/mainPush/c583f2edc613f1be20fa415910b13ce3.webp" alt="">
+                <div class="cartContent clearf">
+                    <div class="mainPush">
+                        <img src="./img/mainPush/c583f2edc613f1be20fa415910b13ce3.webp" alt="">
+                    </div>
+                    <ul class="otherMainPush clearf">
+                        <li class="pushItem">
+                            <img src="./img/mainPush/小米MIX.webp" alt="">
+                            <div class="itemTitle">小米MIX FOLD</div>
+                            <div class="itemStatus">折叠大屏｜自研芯片</div>
+                            <div class="price">
+                                <span>9999元起</span>
+                            </div>
+                        </li>
+                        <li class="pushItem">
+                            <img src="./img/mainPush/小米11U.webp" alt="">
+                            <div class="itemTitle">小米11 Ultra</div>
+                            <div class="itemStatus">1.12''GN2｜2K四微曲屏</div>
+                            <div class="price">
+                                <span>5999元起</span>
+                            </div>
+                        </li>
+                        <li class="pushItem">
+                            <img src="./img/mainPush/小米11P.webp" alt="">
+                            <div class="itemTitle">小米11 Pro</div>
+                            <div class="itemStatus">1.12''GN2｜骁龙888</div>
+                            <div class="price">
+                                <span>4999元起</span>
+                            </div>
+                        </li>
+                        <li class="pushItem">
+                            <img src="./img/mainPush/小米青春版.webp" alt="">
+                            <div class="itemTitle">小米11 青春版</div>
+                            <div class="itemStatus">小米11 青春版 轻薄</div>
+                            <div class="price">
+                                <span>2299元起</span>
+                            </div>
+                        </li>
+                        <li class="pushItem sep">
+                            <img src="./img/mainPush/黑鲨4P.webp" alt="">
+                            <div class="itemTitle">黑鲨4 Pro</div>
+                            <div class="itemStatus">黑鲨4 Pro</div>
+                            <div class="price">
+                                <span>3999元起</span>
+                            </div>
+                        </li>
+                        <li class="pushItem sep">
+                            <img src="./img/mainPush/黑鲨4.webp" alt="">
+                            <div class="itemTitle">黑鲨4</div>
+                            <div class="itemStatus">黑鲨4 磁动力升降肩键</div>
+                            <div class="price">
+                                <span>2499元起</span>
+                            </div>
+                        </li>
+                        
+                        <li class="pushItem sep">
+                            <img src="./img/mainPush/小米10S.webp" alt="">
+                            <div class="itemTitle">小米 10S</div>
+                            <div class="itemStatus">骁龙870 | 对称式双扬立体声</div>
+                            <div class="price">
+                                <span>3299元起</span>
+                            </div>
+                        </li>
+                        <li class="pushItem sep">
+                            <img src="./img/mainPush/红米k40.webp" alt="">
+                            <div class="itemTitle">Redmi  K40 Pro 系列</div>
+                            <div class="itemStatus">骁龙888 / E4 旗舰直屏</div>
+                            <div class="price">
+                                <span>2799元起</span>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
-                <ul class="otherMainPush">
-                    <li class="pushItem">
-                        <img src="./img/mainPush/小米MIX.webp" alt="">
-                        <div class="itemTitle">小米MIX FOLD</div>
-                        <div class="itemStatus">折叠大屏｜自研芯片</div>
-                        <div class="price">
-                            <span>9999元起</span>
-                        </div>
+                    <img src="./img/mainPush/41d16e66381cfeda7b6b39ab67678d5e.webp" alt="">
+            </div>
+            <div class="otherCart">
+                <div class="header">
+                    <div class="title">家电</div>
+                    <div class="more">
+                        <div class="hot">热门</div>
+                        <div class="video">电视影音</div>
+                    </div>
+                </div>
+                <div class="cartContent clearf">
+                    <div class="pushTwo">
+                        <img id="pushFir" src="./img/pushTwo/4.webp" alt="">
+                        <img src="./img/pushTwo/dfbdabe36b2d630d57a015e6fb5eb3ea.webp" alt="">
+                    </div>
+                    <ul class="otherMainPush clearf">
+                        <li class="pushItem">
+                            <img src="./img/homeappliance/03a9e7e96a09d256ca1badeec186c859.webp" alt="">
+                            <div class="itemTitle">小米MIX FOLD</div>
+                            <div class="itemStatus">折叠大屏｜自研芯片</div>
+                            <div class="price">
+                                <span>9999元起</span>
+                            </div>
+                        </li>
+                        <li class="pushItem">
+                            <img src="./img/homeappliance/20d36fbaa18625e4fe507af31e4e9f83.webp" alt="">
+                            <div class="itemTitle">小米11 Ultra</div>
+                            <div class="itemStatus">1.12''GN2｜2K四微曲屏</div>
+                            <div class="price">
+                                <span>5999元起</span>
+                            </div>
+                        </li>
+                        <li class="pushItem">
+                            <img src="./img/homeappliance/9d8674cd21c486feff5328772ab9cf01.webp" alt="">
+                            <div class="itemTitle">小米11 Pro</div>
+                            <div class="itemStatus">1.12''GN2｜骁龙888</div>
+                            <div class="price">
+                                <span>4999元起</span>
+                            </div>
+                        </li>
+                        <li class="pushItem">
+                            <img src="./img/homeappliance/6bed167fc905bab57dee478bcf1e5e0d.webp" alt="">
+                            <div class="itemTitle">小米11 青春版</div>
+                            <div class="itemStatus">小米11 青春版 轻薄</div>
+                            <div class="price">
+                                <span>2299元起</span>
+                            </div>
+                        </li>
+                        <li class="pushItem sep">
+                            <img src="./img/homeappliance/b8c63a2024528fe5410ebe669b7d2407.webp" alt="">
+                            <div class="itemTitle">黑鲨4 Pro</div>
+                            <div class="itemStatus">黑鲨4 Pro</div>
+                            <div class="price">
+                                <span>3999元起</span>
+                            </div>
+                        </li>
+                        <li class="pushItem sep">
+                            <img src="./img/homeappliance/74e573c4c0d89048392d14831cc507d5.webp" alt="">
+                            <div class="itemTitle">黑鲨4</div>
+                            <div class="itemStatus">黑鲨4 磁动力升降肩键</div>
+                            <div class="price">
+                                <span>2499元起</span>
+                            </div>
+                        </li>
+                        <li class="pushItem sep">
+                            <img src="./img/homeappliance/7e5f89adf98ab3fccb34012b5209cd58.webp" alt="">
+                            <div class="itemTitle">小米 10S</div>
+                            <div class="itemStatus">骁龙870 | 对称式双扬立体声</div>
+                            <div class="price">
+                                <span>3299元起</span>
+                            </div>
+                        </li>
+                        <li class="pushItemRight sep">
+                            <div class="pushItem-top">
+                                    <div class="fr">
+                                        <div class="title">米家电烤箱</div>
+                                        <div class="price">279元</div>
+                                    </div>
+                                    <img src="./img/pushItem/1612c93ad4756215774a0dbec7a81bb2.webp" alt="">
+                            </div>
+                            <div class="pushItem-bottom">
+                                    <div class="fr">
+                                        <div class="more">浏览更多</div>
+                                         <div class="detail">热门</div>
+                                    </div>
+                                    <span class="iconfont icon-youjiantou"></span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                    <img id="miHome" src="./img/homeappliance/59e8fc8ba9718c266882719fb4bbcedd.webp" alt="">
+            </div>
+            <div class="videoCart">
+                <div class="header">
+                    <div class="title">视频</div>
+                    <div class="more">查看更多
+                        <span class="iconfont icon-youjiantou-tianchong"></span>
+                    </div>
+                </div>
+                <ul class="video-group">
+                    <li class="videoItem">
+                        <img src="./img/vdeo/e74c4ff741bcdfc5b28a48a43e4edc6d.webp" alt="">
+                        <div class="title">2021年春季新品发布会第一场</div>
                     </li>
-                    <li class="pushItem">
-                        <img src="./img/mainPush/小米11U.webp" alt="">
-                        <div class="itemTitle">小米11 Ultra</div>
-                        <div class="itemStatus">1.12''GN2｜2K四微曲屏</div>
-                        <div class="price">
-                            <span>5999元起</span>
-                        </div>
+                    <li class="videoItem videoSep">
+                        <img src="./img/vdeo/101b19aca4bb489bcef0f503e44ec866.webp" alt="">
+                        <div class="title">Redmi 10X系列发布会场</div>
+                        <div class="des">Redmi 10X系列发布会</div>
                     </li>
-                    <li class="pushItem">
-                        <img src="./img/mainPush/小米11P.webp" alt="">
-                        <div class="itemTitle">小米11 Pro</div>
-                        <div class="itemStatus">1.12''GN2｜骁龙888</div>
-                        <div class="price">
-                            <span>4999元起</span>
-                        </div>
+                    <li class="videoItem videoSep">
+                        <img src="./img/vdeo/96563e75833ba4563bd469dd28203b09.webp" alt="">
+                        <div class="title">小米10 青春版 发布会</div>
                     </li>
-                    <li class="pushItem">
-                        <img src="./img/mainPush/小米青春版.webp" alt="">
-                        <div class="itemTitle">小米11 青春版</div>
-                        <div class="itemStatus">小米11 青春版 轻薄</div>
-                        <div class="price">
-                            <span>2299元起</span>
-                        </div>
-                    </li>
-                    <li class="pushItem sep">
-                        <img src="./img/mainPush/黑鲨4P.webp" alt="">
-                        <div class="itemTitle">黑鲨4 Pro</div>
-                        <div class="itemStatus">黑鲨4 Pro</div>
-                        <div class="price">
-                            <span>3999元起</span>
-                        </div>
-                    </li>
-                    <li class="pushItem sep">
-                        <img src="./img/mainPush/黑鲨4.webp" alt="">
-                        <div class="itemTitle">黑鲨4</div>
-                        <div class="itemStatus">黑鲨4 磁动力升降肩键</div>
-                        <div class="price">
-                            <span>2499元起</span>
-                        </div>
-                    </li>
-                    
-                    <li class="pushItem sep">
-                        <img src="./img/mainPush/小米10S.webp" alt="">
-                        <div class="itemTitle">小米 10S</div>
-                        <div class="itemStatus">骁龙870 | 对称式双扬立体声</div>
-                        <div class="price">
-                            <span>3299元起</span>
-                        </div>
-                    </li>
-                    <li class="pushItem sep">
-                        <img src="./img/mainPush/红米k40.webp" alt="">
-                        <div class="itemTitle">Redmi  K40 Pro 系列</div>
-                        <div class="itemStatus">骁龙888 / E4 旗舰直屏</div>
-                        <div class="price">
-                            <span>2799元起</span>
-                        </div>
+                    <li class="videoItem videoSep">
+                        <img src="./img/vdeo/2fd26bb99b723337a2f8eaba84f7d5bb.webp" alt="">
+                        <div class="title">小米10 8k手机拍大片</div>
                     </li>
                 </ul>
             </div>
