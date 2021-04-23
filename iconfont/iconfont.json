@@ -1,0 +1,72 @@
+{
+  "id": "2493681",
+  "name": "mi",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "8349148",
+      "name": "右箭头-填充",
+      "font_class": "youjiantou-tianchong",
+      "unicode": "e73d",
+      "unicode_decimal": 59197
+    },
+    {
+      "icon_id": "18170247",
+      "name": "电,闪电,电力,电量",
+      "font_class": "lightning-full",
+      "unicode": "e995",
+      "unicode_decimal": 59797
+    },
+    {
+      "icon_id": "584248",
+      "name": "右箭头",
+      "font_class": "iconfontjiantou2",
+      "unicode": "e632",
+      "unicode_decimal": 58930
+    },
+    {
+      "icon_id": "4166087",
+      "name": "购物车",
+      "font_class": "gouwuche",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    },
+    {
+      "icon_id": "5913436",
+      "name": "我的",
+      "font_class": "wode",
+      "unicode": "e61a",
+      "unicode_decimal": 58906
+    },
+    {
+      "icon_id": "6003698",
+      "name": "手机",
+      "font_class": "shouji",
+      "unicode": "e621",
+      "unicode_decimal": 58913
+    },
+    {
+      "icon_id": "10729545",
+      "name": "客服",
+      "font_class": "kefu",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    },
+    {
+      "icon_id": "11276901",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    },
+    {
+      "icon_id": "1089338",
+      "name": "维修",
+      "font_class": "buoumaotubiao46",
+      "unicode": "e629",
+      "unicode_decimal": 58921
+    }
+  ]
+}
