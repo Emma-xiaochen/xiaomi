@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+}
+
 .container {
     width: 1226px;
     margin: 0 auto;
@@ -257,6 +261,7 @@
 .promote-down {
     height: 170px;
     margin-top: 15px;
+    margin-bottom: 25px;
 }
 .promote-down .leftList {
     width: 240px;
@@ -356,6 +361,7 @@
 .cart-promote {
     background: #f5f5f5;
     min-height:  400px;
+    padding-bottom: 20px;
 }
 
 .cart-promote .header,
@@ -668,3 +674,179 @@
     width: 1226px;
 }
 
+.video-group {
+    height: 285px;
+    list-style: none;
+}
+
+.video-group li {
+    width: 295px;
+    height: 280px;
+    float: left;
+    background: #ffffff;
+}
+
+.video-group .videoSep {
+    margin-left: 14px;
+}
+
+.videoItem .imgBox {
+    position: relative;
+}
+
+.video-group img {
+    width: 295px;
+    height: 180px;
+}
+
+.videoItem .imgBox .box {
+    width: 35px;
+    height: 25px;
+    border: 2px solid #ffffff;
+    border-radius: 50px;
+    background: rgba(0, 0, 0, .6);
+    position: absolute;
+    left: 25px;
+    bottom: 15px;
+    text-align: center;
+}
+
+.videoItem .imgBox .box:hover {
+    background: #ff6700;
+    border: 2px solid #ff6700;
+}
+
+.video-group .videoItem .icon-bofang {
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.video-group .videoItem .title {
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.video-group .videoItem .des {
+    height: 18px;
+    font-size: 12px;
+    color: #b0b0b0;
+    text-align: center;
+    margin: 0 14px;
+}
+
+.site-info {
+    height: 330px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: #ffffff;
+}
+
+.server {
+    padding: 27px 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.site-info .server-list {
+    list-style: none;
+    display: flex;
+}
+
+.site-info .server-list li {
+    flex: 1;
+    text-align: center;
+    border-right: 1px solid #e0e0e0;
+}
+
+.site-info .server-list span:hover,
+.site-info .server-list a:hover {
+    color: #ff6700;
+}
+
+.server-list-item span,
+.server-list-item .title,
+.site-info .server-list li {
+    display: inline-block;
+}
+
+.server-list-item span {
+    font-size: 24px;
+}
+
+.server-list-item span,
+.server-list-item a {
+    color: #616161;
+}
+
+.site-info .site-link {
+    padding: 40px 0;
+}
+
+.site-info .col-links {
+    float: left;
+    width: 160px;
+}
+
+.site-info .col-links dt {
+    font-size: 14px;
+    color: #424242;
+    margin: -1px 0 27px;
+}
+
+.site-info .col-links dd {
+    margin: 10px 0 0;
+}
+
+.site-info .col-links a {
+    font-size: 12px;
+    color: #757575;
+}
+
+.site-info .col-links a:hover {
+    color: #ff6700;
+}
+
+.site-info .col-content {
+    float: right;
+    width: 240px;
+    text-align: center;
+    border-left: 1px solid #e0e0e0;
+}
+
+.col-content>div {
+    margin-bottom: 5px;
+}
+
+.site-info .col-content .telephone {
+    font-size: 20px;
+    color: #ff6700;
+}
+
+.site-info .col-content .time,
+.site-info .col-content .follow .title {
+    font-size: 12px;
+    color: #757575;
+}
+
+.site-info .col-content .message {
+    width: 120px;
+    height: 30px;
+    line-height: 1.7;
+    margin-left: 58px;
+    border: 1px solid #ff6700;
+}
+
+.site-info .col-content .message span,
+.site-info .col-content .message .title {
+    color: #ff6700;
+    font-size: 13px;
+}
+
+.site-info .col-content .message span,
+.site-info .col-content .message .title,
+.site-info .col-content .follow .title,
+.site-info .col-content .follow span {
+    display: inline-block;
+}
