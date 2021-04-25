@@ -566,11 +566,13 @@ a {
 }
 
 .otherCart .header .title,
-.otherCart .header .more {
+.otherCart .header .more,
+.otherCart .header .hotGroup {
     display: inline-block;
 }
 
 .otherCart .header .more,
+.otherCart .header .hotGroup,
 .videoCart .header .more {
     position: absolute;
     right: 0;
@@ -601,15 +603,15 @@ a {
     background: #f5f5f5;
 }
 
-.otherCart .more .hot,
-.otherCart .more .video {
+.otherCart .hotGroup .hot,
+.otherCart .hotGroup .video {
     height: 45px;
     display: inline-block;
     margin-left: 20px;
 }
 
-.otherCart .more .hot:hover,
-.otherCart .more .video:hover {
+.otherCart .hotGroup .hot:hover,
+.otherCart .hotGroup .video:hover {
     color: #ff6700;
     border-bottom: 2px solid #ff6700;
 }
