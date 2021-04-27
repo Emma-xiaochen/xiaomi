@@ -20,7 +20,6 @@ a {
     clear: both;
 }
 
-
 .navBar-top {
     height: 40px;
     line-height: 40px;
@@ -29,29 +28,28 @@ a {
     position: relative;
 }
 
-.navBar-top a {
-    color: rgb(176, 176, 176);
-    text-decoration: none;
+.navBar .navBar-top .fl {
+    float: left;
 }
 
-.navBar-top a:hover {
+.navBar .navBar-top .fr {
+    float: right;
+}
+
+.navBar .navBar-top a {
+    color: rgb(176, 176, 176);
+}
+
+.navBar .navBar-top a:hover {
     color: #fff;
     transition-duration: 200ms;
 }
 
-.navBar-top .fl {
-    float: left;
-}
-
-.navBar-top .fr {
-    float: right;
-}
-
-.navBar-top .item {
+.navBar .navBar-top .item {
     padding: 0 2px;
 }
 
-.navBar-top .item::after {
+.navBar .navBar-top .item::after {
     content: "";
     display: inline-block;
     vertical-align: middle;
@@ -60,7 +58,8 @@ a {
     background: rgba(184, 180, 180, 0.337);
     margin-left: 10px;
 }
-.navBar-top button {
+
+.navBar .navBar-top button {
     border: 0;
     width: 120px;
     height: 40px;
@@ -71,19 +70,19 @@ a {
     cursor: pointer;
 }
 
-.navBar-top button:hover {
+.navBar .navBar-top button:hover {
     color: #ff6700;
     background: #ffffff;
 }
 
-.navBar-bottom {
+.navBar .navBar-bottom {
     width: 1226px;
     height: 100px;
     line-height: 100px;
     margin: 0 auto;
 }
 
-.bottom-container {
+.navBar-bottom .bottom-container {
     width: 1226px;
     display: flex;
     justify-content: space-between;
