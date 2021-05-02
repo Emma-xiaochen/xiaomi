@@ -29,6 +29,7 @@ a {
 .otherCart .header .more:hover,
 .otherCart .header .more:hover .more-icon,
 .videoCart .header .more:hover,
+.videoCart .header .more:hover .more-icon,
 .more .icon-youjiantou-tianchong:hover,
 .site-info .server-list span:hover,
 .site-info .server-list a:hover,
@@ -79,12 +80,25 @@ a {
 .navBar .navBar-top .fr .cart-btn {
   border: 0;
   width: 120px;
-  height: 40px;
+  height: 39px;
   color: rgb(176, 176, 176);
   background:rgb(62, 62, 62);
   margin-left: 20px;
   outline: none;
   cursor: pointer;
+  position: relative;
+}
+
+.navBar .navBar-top .fr .cart-btn .icon-gouwuche {
+  font-size: 25px;
+  position: absolute;
+  top: 5px;
+  left: 25px;
+}
+
+.navBar .navBar-top .fr .cart-btn .cart {
+  font-size: 12px;
+  margin-left: 25px;
 }
 
 .navBar .navBar-top .fr .cart-btn:hover {
@@ -491,12 +505,17 @@ a {
 }
 
 .cart-promote .seckill .mainCart .mainCartItem,
-.cart-promote .otherCart .cartContent .otherMainPush .pushItem {
+.cart-promote .otherCart .cartContent .otherMainPush .pushItem,
+.cart-promote .otherCart .cartContent .otherMainPush .pushItemRight {
   width: 232px;
   height: 300px;
-  background: #ffffff;
   margin-left: 14px;
   float: left;
+}
+
+.cart-promote .seckill .mainCart .mainCartItem,
+.cart-promote .otherCart .cartContent .otherMainPush .pushItem {
+  background: #ffffff;
 }
 
 .cart-promote .seckill .mainCart .mainCartItem img,
@@ -583,6 +602,12 @@ a {
   margin-top: 18px;
 } 
 
+.cart-promote .otherCart .header .more-icon,
+.cart-promote .videoCart .header .more-icon {
+  font-size: 20px;
+  color: #b0b0b0;
+}
+
 .cart-promote .otherCart .header .more,
 .cart-promote .otherCart .header .hotGroup,
 .cart-promote .videoCart .header .more {
@@ -617,36 +642,85 @@ a {
   border-bottom: 2px solid #ff6700;
 }
 
+.cart-promote .otherCart .cartContent .otherMainPush .pushItemRight .pushItem-top,
+.cart-promote .otherCart .cartContent .otherMainPush .pushItemRight .pushItem-bottom {
+  height: 141px;
+  background-color: #ffffff;
+  padding: 40px 30px;
+}
+
+.cart-promote .otherCart .cartContent .otherMainPush .pushItemRight .pushItem-top .fr,
+.cart-promote .otherCart .cartContent .otherMainPush .pushItemRight .pushItem-bottom .fr {
+  float: left;
+}
+
+.cart-promote .otherCart .cartContent .otherMainPush .pushItemRight .pushItem-top .fr .title {
+  font-size: 15px;
+  color: #212121;
+}
+
+.cart-promote .otherCart .cartContent .otherMainPush .pushItemRight .pushItem-top .fr .price {
+  font-size: 14px;
+  color: #ff6700;
+}
+
+.cart-promote .otherCart .cartContent .otherMainPush .pushItemRight .pushItem-top img {
+  width: 80px;
+  height: 80px;
+  float: right;
+}
+
+.cart-promote .otherCart .cartContent .otherMainPush .pushItemRight .pushItem-bottom {
+  margin-top: 18px;
+}
+
+.cart-promote .otherCart .cartContent .otherMainPush .pushItemRight .pushItem-bottom .fr .more {
+  font-size: 18px;
+  color: #333333;
+}
+
+.cart-promote .otherCart .cartContent .otherMainPush .pushItemRight .pushItem-bottom .fr .detail {
+  display: block;
+  font-size: 12px;
+  color: #757575;
+}
+
+.cart-promote .otherCart .cartContent .otherMainPush .pushItemRight .pushItem-bottom .icon-youjiantou {
+  font-size: 50px;
+  color: #ff6700;
+  margin-left: 40px;
+}
+
 .cart-promote #miHome {
   width: 1226px;
 }
 
-.video-group {
+.cart-promote .videoCart .video-group {
   height: 285px;
   list-style: none;
 }
 
-.video-group li {
+.cart-promote .videoCart .video-group .videoItem {
   width: 295px;
   height: 280px;
   float: left;
   background: #ffffff;
 }
 
-.video-group .videoSep {
+.cart-promote .videoCart .video-group .videoSep {
   margin-left: 14px;
 }
 
-.videoItem .imgBox {
+.cart-promote .videoCart .videoItem .imgBox {
   position: relative;
 }
 
-.video-group img {
+.cart-promote .videoCart .video-group .imgBox img {
   width: 295px;
   height: 180px;
 }
 
-.videoItem .imgBox .box {
+.cart-promote .videoCart .video-group .videoItem .imgBox .box {
   width: 35px;
   height: 25px;
   border: 2px solid #ffffff;
@@ -658,17 +732,17 @@ a {
   text-align: center;
 }
 
-.videoItem .imgBox .box:hover {
+.cart-promote .videoCart .video-group .videoItem .imgBox .box:hover {
   background: #ff6700;
   border: 2px solid #ff6700;
 }
 
-.video-group .videoItem .icon-bofang {
+.cart-promote .videoCart .video-group .videoItem .imgBox .box .icon-bofang {
   font-size: 14px;
   color: #ffffff;
 }
 
-.video-group .videoItem .title {
+.cart-promote .videoCart .video-group .videoItem .title {
   font-size: 14px;
   color: #333;
   text-align: center;
@@ -676,7 +750,7 @@ a {
   padding-bottom: 10px;
 }
 
-.video-group .videoItem .des {
+.cart-promote .videoCart .video-group .video-group .videoItem .des {
   height: 18px;
   font-size: 12px;
   color: #b0b0b0;
@@ -691,34 +765,34 @@ a {
   background: #ffffff;
 }
 
-.server {
+.site-info .server {
   padding: 27px 0;
   border-bottom: 1px solid #e0e0e0;
 }
 
-.site-info .server-list {
+.site-info .server .server-list {
   list-style: none;
   display: flex;
 }
 
-.site-info .server-list li {
+.site-info .server .server-list .server-list-item {
   flex: 1;
   text-align: center;
   border-right: 1px solid #e0e0e0;
 }
 
-.server-list-item span,
-.server-list-item .title,
-.site-info .server-list li {
+.site-info .server .server-list .server-list-item span,
+.site-info .server .server-list .server-list-item .title,
+.site-info .server .server-list .site-info .server-list li {
   display: inline-block;
 }
 
-.server-list-item span {
+.site-info .server .server-list .server-list-item span {
   font-size: 24px;
 }
 
-.server-list-item span,
-.server-list-item a {
+.site-info .server .server-list .server-list-item span,
+.site-info .server .server-list .server-list-item a {
   color: #616161;
 }
 
@@ -726,7 +800,7 @@ a {
   padding: 40px 0;
 }
 
-.site-info .col-links {
+.site-info .site-link .col-links {
   float: left;
   width: 160px;
 }
@@ -776,13 +850,13 @@ a {
   border: 1px solid #ff6700;
 }
 
-.site-info .col-content .message span,
+.site-info .col-content .message .icon-xinxi,
 .site-info .col-content .message .title {
   color: #ff6700;
   font-size: 13px;
 }
 
-.site-info .col-content .message span,
+.site-info .col-content .message .icon-xinxis,
 .site-info .col-content .message .title,
 .site-info .col-content .follow .title,
 .site-info .col-content .follow span {
@@ -831,10 +905,6 @@ a {
  color: #ff6700;
 }
 
-.site-footer .footer-links a {
- display: inline-block;
-}
-
 .site-footer .footer-links img {
  height: 28px;
  margin: 5px 3px 0 -1px;
@@ -847,9 +917,4 @@ a {
  text-align: center;
  margin: 30px 0 0;
  letter-spacing: 3px;
-}
-
-.otherCart .header .more-icon {
-  font-size: 20px;
-  color: #b0b0b0;
 }
