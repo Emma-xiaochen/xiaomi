@@ -188,7 +188,7 @@ a {
   text-decoration: none;
 }
 
-.main-promote .sideBar ul li {
+.main-promote .sideBar li {
   list-style: none;
 }
 
@@ -217,7 +217,7 @@ a {
   position: relative;
 }
 
-.main-promote .carousel .list .listItem {
+.carousel .list .listItem {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -225,17 +225,17 @@ a {
   transition: all .8s;
 }
 
-.main-promote .carousel .list .listItem.active {
+.carousel .listItem.active {
   z-index: 10;
   opacity: 2;
 }
 
-.main-promote .carousel .list .listItem .flag {
+.carousel .listItem .flag {
   width: 1226px;
   height: 460px;
 }
 
-.main-promote .carousel .btn {
+.carousel .btn {
     width: 41px;
     height: 69px;
     font-size: 30px;
@@ -249,19 +249,19 @@ a {
     top: 210px;
 }
 
-.main-promote .carousel .btn:hover {
+.carousel .btn:hover {
   background: rgba(0, 0, 0, .1);
 }
 
-.main-promote .carousel #goPre {
+.carousel #goPre {
   left: 240px;
 }
 
-.main-promote .carousel  #goNext {
+.carousel  #goNext {
   right: 0;
 }
 
-.main-promote .carousel .pointList {
+.carousel .pointList {
   list-style: none;
   position: absolute;
   right: 20px;
@@ -269,7 +269,7 @@ a {
   z-index: 1000;
 }
 
-.main-promote .carousel .pointList .point {
+.carousel .pointList .point {
   width: 8px;
   height: 8px;
   border-radius: 100%;
@@ -280,7 +280,7 @@ a {
   cursor: pointer;
 }
 
-.main-promote .carousel .pointList .point.active {
+.carousel .pointList .point.active {
   background: rgba(0, 0, 0, .2);
 }
 
@@ -290,14 +290,14 @@ a {
   margin-bottom: 25px;
 }
 
-.promote-down .leftList {
+.leftList {
   width: 240px;
   height: 170px;
   list-style: none;
   float: left;
 }
 
-.promote-down .leftList .mainItem {
+.leftList .mainItem {
   width: 80px;
   height: 85px;
   float: left;
@@ -308,53 +308,53 @@ a {
   position: relative;
 }
 
-.promote-down .leftList .mainItem a {
+.leftList .mainItem a {
   color: #ffffff;
 }
 
-.promote-down .leftList .mainItem:before,
-.promote-down .leftList .mainItem:after {
+.leftList .mainItem:before,
+.leftList .mainItem:after {
   content: '';
   background: #665e67;
   position: absolute;
 }
 
-.promote-down .leftList .mainItem:before {
+.leftList .mainItem:before {
   width: 64px;
   height: 1px;
   top: 0px;
   left: 6px;
 }
 
-.promote-down .leftList .mainItem:after {
+.leftList .mainItem:after {
   width: 1px;
   height: 70px;
   top: 6px;
   left: 0;
 }
 
-.promote-down .leftList .mainItem img {
+.leftList .mainItem img {
   width: 25px;
   height: 25px;
   margin: 5px auto;
 }
 
-.promote-down .leftList .mainItem img,
-.promote-down .leftList .mainItem a {
+.leftList .mainItem img,
+.leftList .mainItem a {
   display: block;
 }
 
-.promote-down .rightList {
+.rightList {
   width: 985px;
   list-style: none;
   float: right;
 }
 
-.promote-down .rightList li {
+.rightList li {
   display: inline-block;
 }
 
-.promote-down .rightList img {
+.rightList img {
   width: 313px;
   height: 170px;
   margin-left: 12px;
