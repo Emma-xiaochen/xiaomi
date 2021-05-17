@@ -417,7 +417,7 @@ a {
   bottom: -5px;
 }
 
-.cart-promote .header .btnGroup button {
+.cart-promote .header button {
   width: 36px;
   height: 24px;
   font-size: 16px;
@@ -425,7 +425,6 @@ a {
   font-weight: bold;
   border: 1px solid #e0e0e0;
 }
-
 
 .cart-promote .header .title,
 .cart-promote .header .btnGroup {
@@ -436,7 +435,7 @@ a {
   margin-left: -5px;
 }
 
-.cart-promote .firstCart .seckill .countdown {
+.seckill .countdown {
   width: 240px;
   height: 300px;
   background: #F1EDED;
@@ -444,39 +443,39 @@ a {
   text-align: center;
 }
 
-.cart-promote .firstCart .seckill .countdown .c-title {
+.seckill .countdown .c-title {
   font-size: 20px;
   color: #ef3a3b;
   padding-top: 35px;
   padding-bottom: 25px;
 }
 
-.cart-promote .firstCart .seckill .insideStyle {
+.seckill .insideStyle {
   padding-top: 30px;
 }
 
-.cart-promote .firstCart .seckill .countdown .icon-lightning-full {
+.seckill .countdown .icon-lightning-full {
   color: rgb(229, 57, 52);
   font-size: 50px;
 }
 
-.cart-promote .firstCart .seckill .countdown .c-time .tag,
-.cart-promote .firstCart .seckill .countdown .c-time .timeItem {
+.seckill .countdown .tag,
+.seckill .countdown .timeItem {
   float: left;
 }
 
-.cart-promote .firstCart .seckill .countdown .c-time {
+.seckill .countdown .c-time {
   padding-left: 35px;
 }
 
-.cart-promote .firstCart .seckill .countdown .c-time .tag {
+.countdown .c-time .tag {
   width: 15px;
   line-height: 46px;
   color: #605751;
   text-align: center;
 }
 
-.cart-promote .firstCart .seckill .countdown .timeItem {
+.seckill .countdown .timeItem {
   float: left;
   width: 46px;
   height: 46px;
@@ -490,8 +489,8 @@ a {
   margin-top: 20px;
 }
 
-.cart-promote .firstCart .seckill .countdown,
-.cart-promote .cart-promote .seckill .mainCart {
+.firstCart .seckill .countdown,
+.seckill .mainCart {
   display: inline-block;
 }
 
@@ -504,29 +503,29 @@ a {
   text-align: center;
 }
 
-.cart-promote .seckill .mainCart .mainCartItem,
-.cart-promote .otherCart .cartContent .otherMainPush .pushItem,
-.cart-promote .otherCart .cartContent .otherMainPush .pushItemRight {
+.seckill .mainCart .mainCartItem,
+.otherMainPush .pushItem,
+.otherMainPush .pushItemRight {
   width: 232px;
   height: 300px;
   margin-left: 14px;
   float: left;
 }
 
-.cart-promote .seckill .mainCart .mainCartItem,
-.cart-promote .otherCart .cartContent .otherMainPush .pushItem {
+.mainCart .mainCartItem,
+.cartContent .otherMainPush .pushItem {
   background: #ffffff;
 }
 
-.cart-promote .seckill .mainCart .mainCartItem img,
-.cart-promote .otherCart .cartContent .otherMainPush .pushItem img {
+.mainCart .mainCartItem img,
+.otherMainPush .pushItem img {
     width: 160px;
     height: 160px;
     margin-left: 10px;
 }
 
-.cart-promote .seckill .mainCart  .mainCartItem .itemTitle,
-.cart-promote .otherCart .cartContent .otherMainPush .pushItem .itemTitle {
+.mainCart .mainCartItem .itemTitle,
+.otherMainPush .pushItem .itemTitle {
     width: 190px;
     font-size: 15px;
     color: #212121;
@@ -536,42 +535,42 @@ a {
     overflow: hidden;
 }
 
-.cart-promote .seckill .mainCart .mainCartItem .itemStatus,
-.cart-promote .otherCart .cartContent .otherMainPush .pushItem .itemStatus {
+.mainCart .mainCartItem .itemStatus,
+.otherMainPush .pushItem .itemStatus {
     font-size: 12px;
     color: #b0b0b0;
     margin: 0 20px 12px;
 }
 
-.cart-promote .seckill .mainCart .mainCartItem .price,
-.cart-promote .otherCart .cartContent .otherMainPush .pushItem .price {
+.mainCart .mainCartItem .price,
+.otherMainPush .pushItem .price {
     font-size: 14px;
     text-align: center;
 }
 
-.cart-promote .seckill .mainCart .mainCartItem .price span,
-.cart-promote .otherCart .cartContent .otherMainPush .pushItem .price span {
+.mainCartItem .price span,
+.pushItem .price span {
     color: #ff6709;
 }
 
-.cart-promote .seckill .mainCart .mainCartItem .price del {
+.mainCartItem .price del {
   color: #b0b0b0;
 }
 
 
-.cart-promote .seckill .mainCart .mainCartItem.fridge {
+.mainCartItem.fridge {
   border-top: 1px solid #83c44e;
 }
 
-.cart-promote .seckill .mainCart .mainCartItem.brush {
+.mainCartItem.brush {
   border-top: 1px solid #e53935;
 }
 
-.cart-promote .seckill .mainCart .mainCartItem.tv{
+.mainCartItem.tv{
   border-top: 1px solid #ffac13;
 }
 
-.cart-promote .seckill .mainCart .mainCartItem.luggage {
+.mainCartItem.luggage {
   border-top: 1px solid #00c0a5;
 }
 
@@ -580,49 +579,49 @@ a {
   margin-bottom: 20px;
 }
 
-.cart-promote .otherCart .cartContent .mainPush img,
-.cart-promote .otherCart .cartContent .pushTwo {
+.cartContent .mainPush img,
+.cartContent .pushTwo {
   width: 240px;
   height: 618px;
   float: left;
 }
 
-.cart-promote .otherCart .cartContent .mainPush,
-.cart-promote .otherCart .cartContent .otherMainPush,
-.cart-promote .otherCart .header .title,
-.cart-promote .otherCart .header .more,
-.cart-promote .otherCart .header .hotGroup,
-.cart-promote .otherCart .header .hotGroup .hot,
-.cart-promote .otherCart .header .hotGroup .video {
+.cartContent .mainPush,
+.cartContent .otherMainPush,
+.header .title,
+.header .more,
+.header .hotGroup,
+.header .hotGroup .hot,
+.header .hotGroup .video {
   display: inline-block;
 }
 
-.cart-promote .otherCart .cartContent .otherMainPush .pushItem.sep,
-.cart-promote .otherCart .cartContent .otherMainPush .pushItemRight {
+.otherMainPush .pushItem.sep,
+.otherMainPush .pushItemRight {
   margin-top: 18px;
 } 
 
-.cart-promote .otherCart .header .more-icon,
-.cart-promote .videoCart .header .more-icon {
+.otherCart .header .more-icon,
+.videoCart .header .more-icon {
   font-size: 20px;
   color: #b0b0b0;
 }
 
-.cart-promote .otherCart .header .more,
-.cart-promote .otherCart .header .hotGroup,
-.cart-promote .videoCart .header .more {
+.otherCart .header .more,
+.otherCart .header .hotGroup,
+.videoCart .header .more {
     position: absolute;
     right: 0;
     bottom: 0px;
 }
 
-.cart-promote .otherCart .pushTwo img {
+.otherCart .pushTwo img {
   width: 232px;
   height: 300px;
   display: block;
 }
 
-.cart-promote .otherCart #pushFir {
+.otherCart #pushFir {
   margin-bottom: 18px;
 }
 
@@ -630,62 +629,62 @@ a {
   background: #f5f5f5;
 }
 
-.cart-promote .otherCart .hotGroup .hot,
-.cart-promote .otherCart .hotGroup .video {
+.otherCart .hotGroup .hot,
+.otherCart .hotGroup .video {
   height: 45px;
   margin-left: 20px;
 }
 
-.cart-promote .otherCart .hotGroup .hot:hover,
-.cart-promote .otherCart .hotGroup .video:hover {
+.otherCart .hotGroup .hot:hover,
+.otherCart .hotGroup .video:hover {
   color: #ff6700;
   border-bottom: 2px solid #ff6700;
 }
 
-.cart-promote .otherCart .cartContent .otherMainPush .pushItemRight .pushItem-top,
-.cart-promote .otherCart .cartContent .otherMainPush .pushItemRight .pushItem-bottom {
+.pushItemRight .pushItem-top,
+.pushItemRight .pushItem-bottom {
   height: 141px;
   background-color: #ffffff;
   padding: 40px 30px;
 }
 
-.cart-promote .otherCart .cartContent .otherMainPush .pushItemRight .pushItem-top .fr,
-.cart-promote .otherCart .cartContent .otherMainPush .pushItemRight .pushItem-bottom .fr {
+.pushItemRight .pushItem-top .fr,
+.pushItemRight .pushItem-bottom .fr {
   float: left;
 }
 
-.cart-promote .otherCart .cartContent .otherMainPush .pushItemRight .pushItem-top .fr .title {
+.pushItem-top .fr .title {
   font-size: 15px;
   color: #212121;
 }
 
-.cart-promote .otherCart .cartContent .otherMainPush .pushItemRight .pushItem-top .fr .price {
+.pushItem-top .fr .price {
   font-size: 14px;
   color: #ff6700;
 }
 
-.cart-promote .otherCart .cartContent .otherMainPush .pushItemRight .pushItem-top img {
+.pushItem-top img {
   width: 80px;
   height: 80px;
   float: right;
 }
 
-.cart-promote .otherCart .cartContent .otherMainPush .pushItemRight .pushItem-bottom {
+.pushItem-bottom {
   margin-top: 18px;
 }
 
-.cart-promote .otherCart .cartContent .otherMainPush .pushItemRight .pushItem-bottom .fr .more {
+.pushItem-bottom .fr .more {
   font-size: 18px;
   color: #333333;
 }
 
-.cart-promote .otherCart .cartContent .otherMainPush .pushItemRight .pushItem-bottom .fr .detail {
+.pushItem-bottom .fr .detail {
   display: block;
   font-size: 12px;
   color: #757575;
 }
 
-.cart-promote .otherCart .cartContent .otherMainPush .pushItemRight .pushItem-bottom .icon-youjiantou {
+.pushItem-bottom .icon-youjiantou {
   font-size: 50px;
   color: #ff6700;
   margin-left: 40px;
@@ -700,27 +699,27 @@ a {
   list-style: none;
 }
 
-.cart-promote .videoCart .video-group .videoItem {
+.videoCart .video-group .videoItem {
   width: 295px;
   height: 280px;
   float: left;
   background: #ffffff;
 }
 
-.cart-promote .videoCart .video-group .videoSep {
+.videoCart .video-group .videoSep {
   margin-left: 14px;
 }
 
-.cart-promote .videoCart .videoItem .imgBox {
+.videoCart .videoItem .imgBox {
   position: relative;
 }
 
-.cart-promote .videoCart .video-group .imgBox img {
+.video-group .imgBox img {
   width: 295px;
   height: 180px;
 }
 
-.cart-promote .videoCart .video-group .videoItem .imgBox .box {
+.videoItem .imgBox .box {
   width: 35px;
   height: 25px;
   border: 2px solid #ffffff;
@@ -732,17 +731,17 @@ a {
   text-align: center;
 }
 
-.cart-promote .videoCart .video-group .videoItem .imgBox .box:hover {
+.videoItem .imgBox .box:hover {
   background: #ff6700;
   border: 2px solid #ff6700;
 }
 
-.cart-promote .videoCart .video-group .videoItem .imgBox .box .icon-bofang {
+.imgBox .box .icon-bofang {
   font-size: 14px;
   color: #ffffff;
 }
 
-.cart-promote .videoCart .video-group .videoItem .title {
+.title {
   font-size: 14px;
   color: #333;
   text-align: center;
@@ -750,7 +749,7 @@ a {
   padding-bottom: 10px;
 }
 
-.cart-promote .videoCart .video-group .video-group .videoItem .des {
+.video-group .videoItem .des {
   height: 18px;
   font-size: 12px;
   color: #b0b0b0;
@@ -775,24 +774,24 @@ a {
   display: flex;
 }
 
-.site-info .server .server-list .server-list-item {
+.server-list .server-list-item {
   flex: 1;
   text-align: center;
   border-right: 1px solid #e0e0e0;
 }
 
-.site-info .server .server-list .server-list-item span,
-.site-info .server .server-list .server-list-item .title,
-.site-info .server .server-list .site-info .server-list li {
+.server-list .server-list-item span,
+.server-list .server-list-item .title,
+.server-list .site-info .server-list li {
   display: inline-block;
 }
 
-.site-info .server .server-list .server-list-item span {
+.server-list .server-list-item span {
   font-size: 24px;
 }
 
-.site-info .server .server-list .server-list-item span,
-.site-info .server .server-list .server-list-item a {
+.server-list .server-list-item span,
+.server-list .server-list-item a {
   color: #616161;
 }
 
@@ -837,7 +836,7 @@ a {
 }
 
 .site-info .col-content .time,
-.site-info .col-content .follow .title {
+.col-content .follow .title {
   font-size: 12px;
   color: #757575;
 }
@@ -850,16 +849,16 @@ a {
   border: 1px solid #ff6700;
 }
 
-.site-info .col-content .message .icon-xinxi,
-.site-info .col-content .message .title {
+.col-content .message .icon-xinxi,
+.col-content .message .title {
   color: #ff6700;
   font-size: 13px;
 }
 
-.site-info .col-content .message .icon-xinxis,
-.site-info .col-content .message .title,
-.site-info .col-content .follow .title,
-.site-info .col-content .follow span {
+.col-content .message .icon-xinxis,
+.col-content .message .title,
+.col-content .follow .title,
+.col-content .follow span {
   display: inline-block;
 }
 
