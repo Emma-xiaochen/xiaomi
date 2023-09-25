@@ -626,8 +626,8 @@ a {
 
 .otherCart .hotGroup .hot,
 .otherCart .hotGroup .video {
-  /* height: 45px; */
-  padding-bottom: 5px;
+  height: 30px;
+  line-height: 30px;
   margin-left: 20px;
 }
 
@@ -732,6 +732,10 @@ a {
   border: 2px solid #ff6700;
 }
 
+.videoItem .videoCart-title {
+  margin-top: 10px;
+}
+
 .imgBox .box .icon-bofang {
   font-size: 14px;
   color: #ffffff;
@@ -748,7 +752,7 @@ a {
   font-size: 12px;
   color: #b0b0b0;
   text-align: center;
-  margin: 0 14px;
+  /* margin: 5px 14px 0; */
 }
 
 .site-info {
@@ -801,7 +805,7 @@ a {
 .site-info .col-links dt {
   font-size: 14px;
   color: #424242;
-  margin: -1px 0 27px;
+  margin-bottom: 15px;
 }
 
 .site-info .col-links dd {
