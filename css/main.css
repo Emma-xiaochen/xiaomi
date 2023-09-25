@@ -395,9 +395,12 @@ a {
 }
 
 .cart-promote .header {
-    position: relative;
+    /* position: relative; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     height: 58px;
-    line-height: 58px;
+    /* line-height: 58px; */
 }
 
 .cart-promote .header .title {
@@ -589,7 +592,7 @@ a {
 .cartContent .mainPush,
 .cartContent .otherMainPush,
 .header .title,
-.header .more,
+.header .more,otherCart .header
 .header .hotGroup,
 .header .hotGroup .hot,
 .header .hotGroup .video {
@@ -605,14 +608,6 @@ a {
 .videoCart .header .more-icon {
   font-size: 20px;
   color: #b0b0b0;
-}
-
-.otherCart .header .more,
-.otherCart .header .hotGroup,
-.videoCart .header .more {
-    position: absolute;
-    right: 0;
-    bottom: 0px;
 }
 
 .otherCart .pushTwo img {
@@ -631,7 +626,8 @@ a {
 
 .otherCart .hotGroup .hot,
 .otherCart .hotGroup .video {
-  height: 45px;
+  /* height: 45px; */
+  padding-bottom: 5px;
   margin-left: 20px;
 }
 
@@ -745,8 +741,6 @@ a {
   font-size: 14px;
   color: #333;
   text-align: center;
-  padding-top: 30px;
-  padding-bottom: 10px;
 }
 
 .video-group .videoItem .des {
